@@ -8,7 +8,7 @@ pipeline {
         stage("Hello World!!") {
             steps {
                 sh 'printenv TEST_PREFIX'
-                sh './scripts/update.sh'
+                sh './JenkinsPipeline/scripts/update.sh'
             }
         }
     }
