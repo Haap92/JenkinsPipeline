@@ -10,6 +10,7 @@ pipeline {
             steps {
                 sh 'printenv TEST_PREFIX'
                 sh 'printenv UPDATE'
+                sh 'printenv UPDATE'
                 
             }
         }
